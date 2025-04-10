@@ -1,29 +1,36 @@
-# Nome do Mini Projeto
+# Página de checkout
 
-(um parágrafo explicando)
-
-## 🤓 Antes de começar
-
-(Coloque aqui algum setup / boilerplate e explicações se houver. Se não houver, essa seção pode ser apagada)
+Este projeto é uma interface de checkout que simula uma experiência de finalização de compra em um e-commerce. O objetivo é permitir ao usuário escolher entre diferentes métodos de pagamento — Cartão de Crédito, Boleto Bancário e Pix — e preencher os dados necessários para concluir a compra. O layout também apresenta um resumo do pedido com subtotal, desconto e total final, além de destacar os métodos de pagamento aceitos e o prazo de entrega.
 
 ## 🔨 Requisitos
 
-- Requisito 1
-- Requisito 2
+1. O usuário deve poder alternar entre os três métodos de pagamento: Cartão de Crédito, Boleto e Pix.
 
-	> 👀 **Dicas:**
-	> - Dica A sobre Req 2.
-	> - Dica B sobre Req 2.
+2. O formulário de pagamento deve exibir os campos específicos de acordo com o método selecionado:
 
-- Requisito 3
-- ...
+- Cartão de Crédito: número do cartão, nome, validade, CVV e parcelas.
+
+- Boleto Bancário: CPF e nome completo.
+
+- Pix: exibição de QR Code e código copiável.
+
+3. Deve ser exibido ao lado o resumo da compra, com:
+
+- Nome do produto
+
+- Quantidade
+
+- Subtotal, desconto e valor total
+
+- Métodos de pagamento aceitos
+
+- Prazo estimado de entrega
 
 ## 🔨 Desafio extra para quem quer ir além
 
-(Essa seção é opcional)
+- Implementar validação dos dados dos formulários em tempo real.
 
-- Requisito extra 1. 
-- Requisito extra 2.
+- Exibir mensagem de sucesso ou erro após clicar no botão "Finalizar pagamento".
 
 ## 🎨 Design Sugerido
 
@@ -31,21 +38,18 @@ Temos uma sugestão de design no Figma. Entretanto, fique à vontade para montar
 
 ### Figma
 
-🔗 [Link do design]()
+🔗 [Link do design](https://www.figma.com/community/file/1491765228337897918/mini-projeto-pagina-de-checkout)
 
 ## 👉🏽 Sobre esse mini-projeto
 
 ### O que você irá praticar:
 
 #### React
+- Manipulação de estado para alternar entre os métodos de pagamento.
 
-- Habilidade 1 do React
-- Habilidade 2
+- Renderização condicional de formulários com base na opção selecionada.
 
 #### TailwindCSS
+- Construção de layouts responsivos com grid e flex.
 
-- Habilidade 1 do TailwindCSS
-
-### Pré requisitos
-
-(coloque aqui se houver algum)
+- Estilização consistente utilizando classes utilitárias para espaçamento, tipografia e cores.
