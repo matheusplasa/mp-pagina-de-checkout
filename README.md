@@ -4,9 +4,11 @@ Este projeto é uma interface de checkout que simula uma experiência de finaliz
 
 ## 🔨 Requisitos
 
-1. O usuário deve poder alternar entre os três métodos de pagamento: Cartão de Crédito, Boleto e Pix.
+#### Requisito 1
+O usuário deve poder alternar entre os três métodos de pagamento: Cartão de Crédito, Boleto e Pix.
 
-2. O formulário de pagamento deve exibir os campos específicos de acordo com o método selecionado:
+#### Requisito 2
+O formulário de pagamento deve exibir os campos específicos de acordo com o método selecionado:
 
 - Cartão de Crédito: número do cartão, nome, validade, CVV e parcelas.
 
@@ -14,7 +16,8 @@ Este projeto é uma interface de checkout que simula uma experiência de finaliz
 
 - Pix: exibição de QR Code e código copiável.
 
-3. Deve ser exibido ao lado o resumo da compra, com:
+#### Requisito 3
+Deve ser exibido ao lado o resumo da compra, com:
 
 - Nome do produto
 
